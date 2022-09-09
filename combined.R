@@ -29,7 +29,7 @@ mean_latitude <- mean(subset_gama$src_latitude)
 
 ##set google API key
 # note: need to enable static API and google maps API 
-register_google(key = )
+source('/keys.R')
 
 gama_map <- get_map(location = c(mean_longitude, mean_latitude), zoom = 9, scale = 2)
 
