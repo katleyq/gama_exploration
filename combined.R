@@ -1,4 +1,4 @@
-###random note to test taylor PAT##
+###random note to test taylor PAT###
 ### combined gama data ###
 library(tidyverse)
 library(here)
